@@ -1,0 +1,62 @@
+body {
+    font-family: 'Rancho', cursive;
+    background: url(https://cache.desktopnexus.com/cropped-wallpapers/1676/1676544-1360x768-[DesktopNexus.com].jpg?st=tq4QjoKzlVojzOWtuanP-g&e=1556137119);
+    background-size: cover;
+    background-position: stretch;
+    background-repeat: no-repeat;
+}
+i {
+    color: white;
+}
+.navbar-brand {
+    font-size: 32px;
+    margin-bottom: 1%;  
+}
+
+nav li  a {
+    font-size: 25px;
+}
+.row {
+    margin-top: 10%;
+}
+.contact-info {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 15%;
+    
+    
+}
+@media (min-width: 1215px) {
+    .contact-info {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    }
+}
+.item {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-basis: 30%;
+    min-height: 300px;
+    min-width: 300px;
+    border-radius: 10%;   
+}
+.item i {
+    margin-top: 8%;
+}
+.address{background:rgba(216,186,160, .9);}
+.phone{background: rgba(147,133,117, .9);}
+.email{background: rgba(43,36,37, .9)}
+
+h2, h4, p {
+    color: white;
+    font-size: 210%;
+}
+h2 {
+    font-weight: bold;
+}
+
+
