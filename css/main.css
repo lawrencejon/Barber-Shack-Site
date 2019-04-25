@@ -16,6 +16,7 @@ body {
     background: url(https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/321490_513375485373984_593712216_n.jpg?_nc_cat=100&_nc_ht=scontent-atl3-1.xx&oh=fadabb854d0795e372acaa04860be35c&oe=5D2ABBE2);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     font-family: 'Rancho', cursive;
     color: white;
 }
@@ -35,7 +36,7 @@ html {
 }
 h1 {
     font-weight: 700;
-    font-size: 8em;
+    font-size: 6em;
    
 }
 h3 {
