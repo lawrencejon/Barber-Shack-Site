@@ -23,8 +23,11 @@ nav li  a {
 .contact-info {
     width: 50%;
     margin: 0 auto;
-    margin-top: 15%;   
+    margin-top: 19%;   
 }
+.address{background:rgba(216,186,160, .8);}
+.phone{background: rgba(147,133,117, .8);}
+.email{background: rgba(43,36,37, .8)}
 .item {
     margin-top: 5%;
     display: flex;
@@ -33,27 +36,35 @@ nav li  a {
     text-align: center;
     border-radius: 10%;  
 }
+h2, h4, p {
+    color: white;
+    font-size: 1.5em;
+}
+h2 {
+    font-weight: bold;
+}
 @media (min-width: 1215px) {
     .contact-info {
     display: flex;
     justify-content: space-between;
     width: 75%;
+    margin-top: 12%; 
     }
     .item {
         min-width: 300px;
         min-height: 300px;
     }
+    h2, h4, p {
+        font-size: 100px;
+    }
 }
 .item i {
     margin-top: 8%;
 }
-.address{background:rgba(216,186,160, .9);}
-.phone{background: rgba(147,133,117, .9);}
-.email{background: rgba(43,36,37, .9)}
 
 h2, h4, p {
     color: white;
-    font-size: 210%;
+    font-size: 1.5em;
 }
 h2 {
     font-weight: bold;
