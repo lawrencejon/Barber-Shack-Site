@@ -23,7 +23,8 @@ nav li  a {
 .contact-info {
     width: 85%;
     margin: 0 auto;
-    margin-top: 19%;   
+    margin-top: 19%; 
+    margin-bottom: 12%;  
 }
 .address{background:rgba(216,186,160, .8);}
 .phone{background: rgba(147,133,117, .8);}
