@@ -21,7 +21,7 @@ nav li  a {
     margin-top: 10%;
 }
 .contact-info {
-    width: 50%;
+    width: 85%;
     margin: 0 auto;
     margin-top: 19%;   
 }
@@ -42,6 +42,16 @@ h2, h4, p {
 }
 h2 {
     font-weight: bold;
+}
+@media (min-width: 575px) {
+    .contact-info {
+        width: 65%;
+    }
+}
+@media (min-width: 745px) {
+    .contact-info {
+        width: 58%;
+    }
 }
 @media (min-width: 1215px) {
     .contact-info {
